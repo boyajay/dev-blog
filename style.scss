@@ -20,7 +20,7 @@ html {
 body {
 	background-image: url(./images/bg.jpg);
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: #334c4c;
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: #334c4c;
   font-weight: bold;
 
   line-height: 1.7;
@@ -73,7 +73,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $gray;
   }
 }
 
@@ -191,18 +191,18 @@ img {
 }
 
 .site-name {
-  margin: 0;
-  color: $darkGray;
+  margin: 0 0 -10px 0;
+  color: $DarkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 32px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $DarkGray;
   font-size: 16px;
 
   @include mobile {
@@ -281,6 +281,11 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+nav a{
+ color: #0047b3; 
+ font-weight: bold;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
