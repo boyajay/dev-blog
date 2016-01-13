@@ -3,7 +3,7 @@ layout: post
 title: First Day of Hack Reactor
 ---
 
-So I'm finally done moving to San Francisco and I loving it - the city is invigorating. I went from sitting hours in traffic everyday to walking and skating everywhere. Mostly everyone is socially and environmentally conscious. And I started Hack Reactor today!
+So I'm finally done moving to San Francisco and I'm loving it - the city is invigorating. I went from sitting hours in traffic everyday to walking and skating everywhere. Mostly everyone is socially and environmentally conscious. And I started Hack Reactor today!
 
 ### What is Hack Reactor like?
 
