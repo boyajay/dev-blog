@@ -41,5 +41,5 @@ This list is hardly conclusive, but it contains many of the common data structur
 * Finally, another way to lessen the number of collisions is to have a dynamically resizing hash table. The greater the ratio of the hash table size to the number of values to be stored, the less likely that collisions will occur. The table needs to be resized larger as the number of values approaches the length of the limited array.
 
 
-Tomorrow, I will take a look into how the time complexity of specific operations will be on different data structures, and which one would be best for a given situation.
+Tomorrow, I will take a look into what the time complexity of specific operations will be on different data structures, and which one would be best for a given situation.
 
