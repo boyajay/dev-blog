@@ -3,7 +3,7 @@ layout: post
 title: Orders of Time Complexity, Big and Little 'O'
 ---
 
-The previous post discussed that one factor in selecting a data structures is the efficiency of a data structure in running the most common operations. To understand the efficiencies of data structures, a working knowledge of time complexity is required. 
+The previous post discussed that one factor in selecting a data structures is the efficiency of the structure in running the most common operations. To understand what is meant by efficiency, a working knowledge of time complexity is required. 
 
 ###Time Complexity and the Big 'O'
 
