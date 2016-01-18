@@ -3,9 +3,11 @@ layout: post
 title: Orders of Time Complexity, Big and Little 'O'
 ---
 
+The previous post discussed that one factor in selecting a data structures is the efficiency of a data structure in running the most common operations. To understand the efficiencies of data structures, a working knowledge of time complexity is required. 
+
 ###Time Complexity and the Big 'O'
 
-The previous post discussed that one factor in selecting a data structures is the efficiency of a data structure in running the most common operations. To understand the efficiencies of data structures, a working knowledge of time complexity is required. The time complexity of an algorithm measures the increase in the runtime of executing a particular operation in relation to the size of the inputs, as the inputs grow towards infinity. This is often described in the language of "Big O notation," which I'll briefly go over. Big O notation is a way of describing this time complexity, but actually describes the nature of the runtime in the ***worst case scenaro***. I'll cover some nuances about it at the end. A non-exhaustive list of orders of time complexity, ranging from preferable to least preferable:
+The time complexity of an algorithm measures the increase in the runtime of executing a particular operation in relation to the size of the inputs, as the inputs grow towards infinity. This is often described in the language of "Big O notation," which I'll briefly go over. Big O notation is a way of describing this time complexity, but actually describes the nature of the runtime in the ***worst case scenaro***. I'll cover some nuances about it at the end. A non-exhaustive list of orders of time complexity, ranging from preferable to least preferable:
 
 * **Constant Time** - The fastest performances are at constant time, meaning the runtime of the operation is the same regardless of how large or long the input is. An example would be getting the value of the first index of an array (it's constant since you only need to access one cell despite how large an array may be). Another would be adding a value to the top of the stack, which takes the same amount of time no matter the size of the stack - we're simply tossing it on top. The notation for constant time is O(1), meaning that as time grows, the function still takes the same 1 unit of time.
 
