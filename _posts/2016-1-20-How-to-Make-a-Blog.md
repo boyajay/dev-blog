@@ -28,4 +28,4 @@ Ok, I lied a little bit. You technically don't need to preview your site, but if
 
 ### 6. Bling out your blog!
 
-All the HTML files are found in the _layouts folder, and the style.scss in the root folder contains all the css content you want to change. Where you go from you is up to you.
+All the HTML files are found in the _layouts folder, and the style.scss in the root folder contains all the css content you want to change. Where you go from here is up to you.
